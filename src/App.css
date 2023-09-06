@@ -3,5 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive; /* Fuente pixelada */
 }
+
+#root{
+    background-image: linear-gradient(to right, #c6bebe, #bdb4b4, #b3aaaa, #aaa1a1, #a19797);
+    height: 100vh;
+}
+      
+
 
