@@ -6,10 +6,12 @@
     font-family: 'Press Start 2P', cursive; /* Fuente pixelada */
 }
 
-#root{
-    background-image: linear-gradient(to right, #c6bebe, #bdb4b4, #b3aaaa, #aaa1a1, #a19797);
-    height: 100vh;
+body {
+    background: linear-gradient(45deg, #2b2b2b 25%, #333333 25%, #333333 50%, #2b2b2b 50%, #2b2b2b 75%, #333333 75%, #333333 100%);
+    background-size: 10px 10px;
 }
-      
+  
+  
+
 
 
