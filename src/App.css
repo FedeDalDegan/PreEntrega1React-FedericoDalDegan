@@ -10,8 +10,62 @@ body {
     background: linear-gradient(45deg, #2b2b2b 25%, #333333 25%, #333333 50%, #2b2b2b 50%, #2b2b2b 75%, #333333 75%, #333333 100%);
     background-size: 10px 10px;
 }
-  
-  
 
+.products__section, .contact__section, .about__section{
+    color: white;
+}
+
+/* Seccion Detail */
+.detail__flex--container{ /* Posicionamiento de la CARD en DETAIL */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Posicionamiento de los ELEMENTOS de la CARD */
+.detailled--card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    box-shadow: rgba(148, 0, 211, 0.4) 0px 5px, rgba(148, 0, 211, 0.3) 0px 10px, rgba(148, 0, 211, 0.2) 0px 15px, rgba(148, 0, 211, 0.1) 0px 20px, rgba(148, 0, 211, 0.05) 0px 25px;
+}
+
+.h5-card{
+    font-size: 14px;
+}
+
+.span-card{
+    color: rgb(206, 111, 34);
+    margin-bottom: 5px;
+    text-decoration: underline 1px rgb(206, 111, 34);;
+}
+
+.detailed--card, p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.img-card{
+    width: 250px;
+    padding: 20px;
+}
+
+.button-img{
+    width: 50px;
+}
+
+.button--details{
+    width: 125px;
+    height: 80px;
+    margin-bottom: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
 
 

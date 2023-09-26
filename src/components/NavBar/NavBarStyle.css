@@ -1,20 +1,28 @@
-/* NavBar */
 .container-fluid{ /* Navbar by itself */
     background-image: linear-gradient(to right, #4e92f9, #748af9, #9581f5, #b376ed, #cd69e1, #cd69e1, #cd69e1, #cd69e1, #b376ed, #9581f5, #748af9, #4e92f9);
-    position: fixed;
-    top: 0;
     height: 75px;
-    gap: 35px;
 }
 
-.nav-item{ /* Anchors (li) */
-    color: black;
+.navbar__flex--container{ /* NavBar positioning */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .brandLogo{ /* Logo */
-    width: 40px;
+    width: 50px;
 }
 
-.navbar-nav{ /* Gap between anchors */
+.navbar-nav, .anchors{ /* Anchors */
     gap: 30px;
+    color: black;
+    transition: 0.1s ease; 
+}
+
+.anchors:hover{
+    transform: scale(1.1); 
+    color: black;
+    text-decoration: underline 1px rgb(15, 71, 0);
 }

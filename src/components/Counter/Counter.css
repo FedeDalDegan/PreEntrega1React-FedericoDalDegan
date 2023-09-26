@@ -1,0 +1,7 @@
+.detail--conter{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 10px;
+    color: rgb(35, 102, 4);
+}

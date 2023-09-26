@@ -1,24 +1,29 @@
-import CartWidget from "./CartWidget"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
+import CartWidget from "../NavBar/CartWidget"
 
-const NavBar = () => {
-    return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-                <a href=""><img className="brandLogo" src="https://cdn3.iconfinder.com/data/icons/devices-55/512/Gamepad-256.png" alt="" /></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">Home</a></li>
-                    <li className="nav-item"><a className="nav-link active" href="#">Products</a></li>
-                    <li className="nav-item"><a className="nav-link active" href="#">About us</a></li>
-                </ul>
-                </div>
-                <CartWidget /> 
+function ColorSchemesExample() {
+
+  return (
+    <>
+        <Navbar className='container-fluid'>
+          <Container>
+            <div className='navbar__flex--container'>
+              <NavLink exact to ="/"><img className="brandLogo" src="https://cdn3.iconfinder.com/data/icons/supermario/PNG/Retro-Mario.png" alt="" /></NavLink>
+              <Nav className="me-auto">
+                <NavLink exact to="/" className="anchors">Home</NavLink>
+                <NavLink to="/products" className="anchors">Products</NavLink>
+                <NavLink to="/about" className="anchors">About</NavLink>
+                <NavLink to="/contact" className="anchors">Contact</NavLink>
+              </Nav>
             </div>
-        </nav>
-    )
+            <CartWidget />
+          </Container>
+        </Navbar>
+    </>
+  );
 }
 
-export default NavBar
+export default ColorSchemesExample;
