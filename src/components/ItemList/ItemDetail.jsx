@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Counter from "../Counter/Counter"
 
 const ItemDetail = ({ item }) => {

@@ -3,7 +3,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 // Pages
 import Home from '../Pages/Home'
-import Products from "../Pages/Products"
+import Categories from "../Pages/Categories"
 import About from "../Pages/About"
 import Contact from "../Pages/Contact"
 import Detail from "../pages/Detail"
@@ -16,7 +16,6 @@ import "./components/Loading/Loading.css"
 import NavBar from './components/NavBar/NavBar'
 import "./components/NavBar/NavBarStyle.css"
 // Item List Container
-import ItemListContainer from "./components/ItemList/ItemListContainer"
 import "./components/ItemList/ItemListContainer.css"
 // Counter
 import "./components/Counter/Counter.css"
@@ -39,7 +38,8 @@ function App() {
         ) : (
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/:category" element={<Categories />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/detalle/:id" element={<Detail />} />
