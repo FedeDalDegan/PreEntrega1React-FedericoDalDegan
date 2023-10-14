@@ -1,16 +1,18 @@
 import React from "react"
-import { AiOutlineShoppingCart } from "react-icons/ai"
+import UserContext from "../../context/userContext/userContext"
 
 const CartWidget = () => {
+
     return (
-        <div style={CartStlye}>
-            <AiOutlineShoppingCart /> <span>0</span>
+        <div className="cart">
+            <img src="https://cdn1.iconfinder.com/data/icons/material-core/20/shopping-cart-256.png" alt="" />
+            <UserContext.Consumer>
+                {
+                    ({user}) => <p>Carrito de:   {user.name}</p>
+                }
+            </UserContext.Consumer>
         </div>
     )
-}
-
-const CartStlye = { /* Cart style */
-    fontSize: 15,
 }
 
 export default CartWidget

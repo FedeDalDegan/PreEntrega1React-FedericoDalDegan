@@ -62,8 +62,8 @@ body {
 }
 
 .button--details{
-    width: 125px;
-    height: 80px;
+    width: 200px;
+    height: 60px;
     margin-bottom: 10px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
@@ -71,12 +71,18 @@ body {
 /* Categories */
 .categories__section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
     color: white;
     margin: 0px 200px 0px 200px;
+    text-align: center;
+}
+
+.categories__section span{
+    color: red;
+    text-decoration: underline 2px white;
 }
   
 .categories__card--container{
@@ -86,19 +92,27 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    gap: 10px;
+    gap: 25px;
 }
-  
+
 /* Estilo de las tarjetas */
 .card-categories{
+    width: 350px;
+    height: 250px;
+    padding: 10px;
     margin: 15px;
-    width: 340px;
-    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
+.card-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .card-img-categories{
-    height: 250px;
+    width: 225px;
+    height: 300px;
 }
 
 .card-title-categories{
@@ -106,4 +120,24 @@ body {
 }
 .card-desc-categories{
     font-size: 15px;
+}
+
+/* Checkout */
+.checkout-msg{
+    height: 60vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    text-align: center;
+    color: white;
+    gap: 10px;
+}
+
+.checkout-msg span{
+    padding: 15px;
+    color: whitesmoke;
+    border: 2px solid #4e92f9;
 }

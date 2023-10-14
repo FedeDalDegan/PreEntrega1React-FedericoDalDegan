@@ -1,0 +1,82 @@
+/* Organizacion del footer */
+.main-footer{
+    background-image: linear-gradient(to left, #4e92f9, #748af9, #9581f5, #b376ed, #cd69e1, #cd69e1, #cd69e1, #cd69e1, #b376ed, #9581f5, #748af9, #4e92f9);
+
+    margin-top: 50px;
+    padding: 15px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Ordenando en el 100% del ancho */
+.footer__flex--container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+/* Eliminando iconos de lista */
+.footer--info, .footer--ul{
+    list-style: none;
+}
+
+/* Color de titulo */
+.footer--info h3{
+    color: black;
+}
+
+/* Texto dentro de cada categoria del footer */
+.footer--ul li {
+    color: whitesmoke;
+}
+
+/* Seccion socials */
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-socials{
+    width: 38px;
+    transition: .2s;
+}
+
+.footer-socials:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+/* Seccion sponsors */
+.sponsors{
+    text-align: center;
+    color: black;
+}
+
+.sponsor__img--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.sponsor-img{
+    width: 55px;
+    max-height: 55px;
+    filter: contrast(100);
+}
+
+.sponsor-img-rotate{
+    width: 55px;
+    max-height: 55px;
+    transform: rotate(180deg);
+    transform: rotateY(180deg);
+    filter: contrast(100);
+}

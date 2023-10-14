@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "../../components/Loading/Loading.css"
 
 const Loading = ({onLoadingComplete}) => {
 

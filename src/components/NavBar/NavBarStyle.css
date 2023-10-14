@@ -26,3 +26,19 @@
     color: black;
     text-decoration: underline 1px rgb(15, 71, 0);
 }
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cart p {
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+
+.cart img{
+    height: 20px;
+}

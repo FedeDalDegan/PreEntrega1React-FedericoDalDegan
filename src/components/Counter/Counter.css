@@ -1,7 +1,12 @@
 .detail--conter{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     padding-top: 10px;
     color: rgb(35, 102, 4);
+}
+
+.contador{
+    display: flex;
+    gap: 15px;
 }
