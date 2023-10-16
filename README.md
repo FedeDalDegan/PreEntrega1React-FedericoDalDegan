@@ -31,23 +31,23 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 ```bash
 git clone https://github.com/FedeDalDegan/PreEntrega1React-FedericoDalDegan
 ```
-1. Navega al directorio del proyecto:
+2. Navega al directorio del proyecto:
 ```bash
 cd react-ecommerce-project
 ```
-1. Instala las dependencias con NPM
+3. Instala las dependencias con NPM
 ```bash
 npm install
 ```
-1. O con yarn:
+4. O con yarn:
 ```bash
 yarn install
 ```
-1. Inicia la aplicación con NPM
+5. Inicia la aplicación con NPM
 ```bash
 npm start
 ```
-1. O con yarn:
+6. O con yarn:
 ```bash
 yarn start
 ```
