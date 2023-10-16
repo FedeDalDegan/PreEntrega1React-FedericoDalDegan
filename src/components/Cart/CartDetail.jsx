@@ -36,12 +36,12 @@ const cartDetail = () => {
         clear()
     }
 
-    const calculateItemTotal = (item) => {
-        return item.quantity * item.price;
+    const calculateItemTotal = (item, quantity) => {
+        return quantity * item.price;
     };
       
       const cartTotal = cart.reduce((total, item) => {
-        return total + calculateItemTotal(item);
+        return total + calculateItemTotal(item, item.quantity);
     }, 0);
 
   return (
@@ -53,7 +53,7 @@ const cartDetail = () => {
                         <img src={el.image} alt="" />
                         <p>Juego: {el.name}</p>
                         <p>Cantidad: {el.quantity}</p>
-                        <p>Total: ${calculateItemTotal(el).toFixed(2)}</p>
+                        <p>Total: ${calculateItemTotal(el, el.quantity).toFixed(2)}</p>
                         <button onClick={()=>removeItem(el.id)}>Eliminar</button>
                     </div>
                 ))

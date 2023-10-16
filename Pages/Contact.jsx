@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <CarouselsContact />
-      <form action="" method='post' className='form-container'>
+      <form action="" className='form-container'>
         <div>
           <div>
             <label htmlFor="usuario">Usuario</label>
@@ -30,7 +30,7 @@ const Contact = () => {
           </div>
           <input type="text" id='msg'/>
         </div>
-        <button type="submit">Enviar</button>
+        <button type='submit'>Enviar</button>
       </form>
     </div>
   )
