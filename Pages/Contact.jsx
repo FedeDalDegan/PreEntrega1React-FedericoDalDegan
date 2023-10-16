@@ -10,19 +10,19 @@ const Contact = () => {
           <div>
             <label htmlFor="usuario">Usuario</label>
           </div>
-          <input type="text" />
+          <input type="text" name="usuario" required/>
         </div>
         <div>
           <div>
             <label htmlFor="contraseña">Contraseña</label>
           </div>
-          <input type="password" />
+          <input type="password" required/>
         </div>
         <div>
           <div>
             <label htmlFor="email">Email</label>
           </div>
-          <input type="text" />
+          <input type="text" required/>
         </div>
         <div>
           <div>
