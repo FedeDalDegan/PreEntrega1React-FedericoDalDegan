@@ -5,6 +5,7 @@ import cartContext from "../../context/cartContext/cartContext"
 
 const ItemDetailContainer = ( { id }) => {
     const [item, setItem] = useState(null)
+    
     const onAdd = (q) => {
         addItem(item, q)
     }

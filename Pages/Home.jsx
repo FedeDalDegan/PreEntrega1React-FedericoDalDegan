@@ -1,6 +1,8 @@
 import React from 'react'
 import ItemListContainer from "../src/components/ItemList/ItemListContainer"
 import { useParams } from 'react-router-dom'
+import CarouselsContact from "../src/components/Carousels/CarouselsContact"
+
 // import { addDoc, collection, getFirestore } from "firebase/firestore"
 
 const Home = () => {
@@ -193,6 +195,7 @@ const Home = () => {
 
   return (
     <div>
+      <CarouselsContact />
       <ItemListContainer/>
       {/* <button onClick={()=>addData()}>Agregar productos</button> */}
     </div>

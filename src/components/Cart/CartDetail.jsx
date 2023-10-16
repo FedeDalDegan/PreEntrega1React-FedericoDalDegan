@@ -15,8 +15,8 @@ const cartDetail = () => {
         const purchase = {
             buyer: {
                 id: 1,
-                name: "asd",
-                mail: "asd",
+                name: "fnh",
+                mail: "f@gmail.com",
             },
             items: cart,
             date: new Date(),

@@ -1,9 +1,37 @@
 import React from 'react'
+import CarouselsContact from "../src/components/Carousels/CarouselsContact"
 
 const Contact = () => {
   return (
-    <div className='about__section'>
-      <h2>Contact Section... In progress.</h2>
+    <div>
+      <CarouselsContact />
+      <form action="" method='post' className='form-container'>
+        <div>
+          <div>
+            <label htmlFor="usuario">Usuario</label>
+          </div>
+          <input type="text" />
+        </div>
+        <div>
+          <div>
+            <label htmlFor="contraseña">Contraseña</label>
+          </div>
+          <input type="password" />
+        </div>
+        <div>
+          <div>
+            <label htmlFor="email">Email</label>
+          </div>
+          <input type="text" />
+        </div>
+        <div>
+          <div>
+            <label htmlFor="email">Mensaje</label>
+          </div>
+          <input type="text" id='msg'/>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
     </div>
   )
 }

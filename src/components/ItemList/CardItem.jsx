@@ -5,7 +5,7 @@ import "../../components/ItemList/ItemListContainer.css"
 
 const CardItem = ({ item }) => {
     return (
-        <Card style={{ width: '18rem' }}className='mx-auto mt-5'>
+        <Card style={{ width: '18rem' }}className='mx-5 mt-5'>
             <Card.Body className='home__card'>
             <Card.Img variant="top" src={item.image} className='card__img'/>
                 <Card.Title className='card__title'>{item.name}</Card.Title>

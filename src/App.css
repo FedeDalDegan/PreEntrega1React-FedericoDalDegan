@@ -141,3 +141,35 @@ body {
     color: whitesmoke;
     border: 2px solid #4e92f9;
 }
+
+/* Form */
+.form-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#msg{
+    height: 100px;
+}
+
+.crss{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.crss img{
+    height: 300px;
+}
