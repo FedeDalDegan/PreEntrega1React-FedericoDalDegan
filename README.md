@@ -2,7 +2,7 @@
 Este es un proyecto de eCommerce desarrollado en React que se enfoca en la venta de juegos. El proyecto ha sido creado con el propósito de aplicar y demostrar los conocimientos adquiridos durante el curso.
 ## Tecnologias utilizadas
 - ![Logo de HTML](https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-16.png) React JS 
-- ![Logo de Vite](https://icons.iconarchive.com/icons/simpleicons-team/simple/256/vite-icon.png) Vite
+- ![Logo de Vite](https://icons.iconarchive.com/icons/simpleicons-team/simple/16/vite-icon.png) Vite
 - ![Logo de React BootStrap](https://cdn1.iconfinder.com/data/icons/akar-vol-1/24/bootstrap-fill-16.png) React BootStrap
 - ![Logo de JavaScript](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-16.png) JavaScript
 - ![Logo de HTML](https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-16.png) HTML
